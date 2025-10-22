@@ -31,10 +31,10 @@
   cursor: pointer;
 }
 .header__icons-search:hover, .header__icons-exit:hover {
-  color: rgb(145, 172, 70);
+  color: var(--color-hover);
 }
 .header__icons-search:active, .header__icons-exit:active {
-  color: rgb(104, 139, 5);
+  color: var(--color-active);
 }
 
 .header__link {

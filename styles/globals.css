@@ -24,13 +24,22 @@ a {
 h1 {
   margin: 0;
   font-size: clamp(48px, 4.1666666667vw, 60px);
+  font-family: "Cormorant", serif;
+  line-height: 100%;
+  letter-spacing: 0.1px;
 }
 
 h2 {
   font-size: clamp(32px, 3.3333333333vw, 48px);
+  font-family: var(--font-family-second);
+}
+
+p {
+  font-size: clamp(8px, 1.1111111111vw, 16px);
 }
 
 .container {
   margin: 0 auto;
-  max-width: 1110px;
+  max-width: 1172px;
+  padding: 0 32px;
 }/*# sourceMappingURL=globals.css.map */

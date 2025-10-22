@@ -1,0 +1,38 @@
+.hero {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 115px;
+  padding-bottom: 111px;
+  background-image: url("../img/header.png");
+}
+.hero__wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 22px;
+}
+
+.hero__link {
+  display: flex;
+  -moz-column-gap: 8px;
+       column-gap: 8px;
+  color: var(--color-accent);
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.hero__link:hover {
+  color: var(--color-hover);
+}
+
+.hero__link:active {
+  color: var(--color-active);
+}
+
+.hero__search {
+  letter-spacing: 0.1px;
+}
+
+.hero__description {
+  letter-spacing: 0.56px;
+}/*# sourceMappingURL=hero.css.map */

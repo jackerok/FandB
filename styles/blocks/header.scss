@@ -34,12 +34,12 @@
 
   &-search:hover,
   &-exit:hover {
-    color: rgba(145, 172, 70, 1);
+    color: var(--color-hover);
   }
 
   &-search:active,
   &-exit:active {
-    color: rgba(104, 139, 5, 1);
+    color: var(--color-active);
   }
 }
 
