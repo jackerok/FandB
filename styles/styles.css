@@ -2,7 +2,6 @@
 /**
   Нормализация блочной модели
  */
-@import url("./blocks/header.scss");
 *,
 ::before,
 ::after {
@@ -224,7 +223,8 @@ body {
   font-family: var(--font-family-base);
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.28;
+  line-height: 150%;
+  letter-spacing: 0.44px;
   color: var(--color-white);
   background-color: var(--color-fonts);
 }
@@ -249,4 +249,56 @@ h1 {
 
 h2 {
   font-size: clamp(32px, 3.3333333333vw, 48px);
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1110px;
+}
+
+.header {
+  width: 100%;
+}
+.header__nav {
+  display: flex;
+  -moz-column-gap: 125px;
+       column-gap: 125px;
+}
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+.header__list {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 64px;
+       column-gap: 64px;
+}
+
+.header__icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  -moz-column-gap: 64px;
+       column-gap: 64px;
+}
+.header__icons-search, .header__icons-exit {
+  color: var(--color-accent);
+  cursor: pointer;
+}
+.header__icons-search:hover, .header__icons-exit:hover {
+  color: rgb(145, 172, 70);
+}
+.header__icons-search:active, .header__icons-exit:active {
+  color: rgb(104, 139, 5);
+}
+
+.header__link {
+  cursor: pointer;
+}
+
+.header__link:hover {
+  color: var(--color-accent);
 }/*# sourceMappingURL=styles.css.map */

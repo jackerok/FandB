@@ -2,7 +2,8 @@ body {
   font-family: var(--font-family-base);
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.28;
+  line-height: 150%;
+  letter-spacing: 0.44px;
   color: var(--color-white);
   background-color: var(--color-fonts);
 }
@@ -27,4 +28,9 @@ h1 {
 
 h2 {
   font-size: clamp(32px, 3.3333333333vw, 48px);
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1110px;
 }/*# sourceMappingURL=globals.css.map */
